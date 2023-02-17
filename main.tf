@@ -4,9 +4,13 @@ provider "aws" {
     secret_key = ""
 }
 
+variable "subnet_prefix" {
+  description = "cidr block for the subnet"
+}
+
 # 1. Create a VPC
 resource "aws_vpc" "prod-vpc" {
-    cidr_block = "10.0.0.0/16"
+    cidr_block = var.subnet_prefix
     tags = {
       "Name" = "production"
     }
