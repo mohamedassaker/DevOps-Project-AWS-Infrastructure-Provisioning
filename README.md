@@ -29,7 +29,7 @@ To provision the infrastructure on AWS, follow these steps:
 1. Clone the repository:
 
    ```
-   git clone https://github.com/mohamedassaker/Terraform-AWS-EC2-Ubuntu-Server.git
+   git clone https://github.com/mohamedassaker/DevOps-Project-AWS-Infrastructure-Provisioning.git
    ```
 
 2. Navigate to the project directory:
